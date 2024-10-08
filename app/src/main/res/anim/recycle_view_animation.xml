@@ -1,0 +1,16 @@
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Fade-in animation -->
+    <alpha
+        android:fromAlpha="0"
+        android:toAlpha="1"
+        android:duration="1000"/>
+
+    <!-- Scale animation -->
+    <scale
+        android:fromXScale="0.8"
+    android:fromYScale="0.8"
+    android:toXScale="1"
+    android:toYScale="1"
+    android:duration="1000"/> <!-- Increase duration -->
+</set>

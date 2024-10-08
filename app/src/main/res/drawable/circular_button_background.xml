@@ -1,0 +1,13 @@
+<!-- res/drawable/circular_button_background.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval">
+
+    <!-- Button background color -->
+    <solid android:color="@color/white" />
+
+    <!-- Optional: Border around the circle -->
+    <stroke
+        android:width="2dp"
+        android:color="@color/white" />
+
+</shape>

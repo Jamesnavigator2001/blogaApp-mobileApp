@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Gradient Background -->
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:startColor="#0078D7"
+                android:endColor="#00A3E0"
+                android:angle="90" />
+        </shape>
+    </item>
+
+    <!-- Semi-transparent overlay for "blur effect" -->
+    <item>
+        <shape android:shape="rectangle">
+            <!-- Use a semi-transparent white to simulate blur -->
+            <solid android:color="#80FFFFFF" /> <!-- #80FFFFFF is 50% transparent white -->
+        </shape>
+    </item>
+</layer-list>

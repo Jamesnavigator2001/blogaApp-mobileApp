@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="deepSkyBlue">#00BFFF</color>
+    <color name="whiteSmoke">#F5F5F5</color>
+    <color name="grey">#808080</color>
+    <color name="textFieldBackground">#F5F5F5</color>
+    <color name="red">#f00</color>
+    <color name="deepFadingSkyBlue">#8000BFFF</color>
+    <color name="colorHint">#80FFFFFF</color> <!-- Semi-transparent white for hint -->
+    <color name="colorPrimaryText">#FFFFFF</color> <!-- White text -->
+
+</resources>
