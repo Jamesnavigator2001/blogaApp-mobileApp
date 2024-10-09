@@ -12,17 +12,17 @@ public class ApiClient {
     public static Retrofit getRetrofitInstance() {
         if (retrofit == null) {
             HttpLoggingInterceptor logging = new HttpLoggingInterceptor();
-            logging.setLevel(HttpLoggingInterceptor.Level.BODY);  // Logs request and response bodies
+            logging.setLevel(HttpLoggingInterceptor.Level.BODY);
 
 
             OkHttpClient okHttpClient = new OkHttpClient.Builder()
-                    .addInterceptor(logging)  // Add the logging interceptor
+                    .addInterceptor(logging)
                     .build();
 
             retrofit = new Retrofit.Builder()
                     .baseUrl(BASE_URL)
-                    .client(okHttpClient)  // Set the custom OkHttpClient
-                    .addConverterFactory(GsonConverterFactory.create())  // Converts JSON into Java objects
+                    .client(okHttpClient)
+                    .addConverterFactory(GsonConverterFactory.create())
                     .build();
         }
         return retrofit;

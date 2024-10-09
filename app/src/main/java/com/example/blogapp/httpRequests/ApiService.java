@@ -6,6 +6,7 @@ import retrofit2.http.GET;
 import retrofit2.http.Header;
 import retrofit2.http.POST;
 import retrofit2.http.Path;
+import retrofit2.http.Query;
 
 public interface ApiService {
 
@@ -33,4 +34,6 @@ public interface ApiService {
     @GET("api/posts/{author_email}/")
     Call<ResponseHandler.AuthorPostsResponse> authorsPost(@Header("Authorization") String token , @Path("author_email") String authorEmail);
 
+    @GET("/api/search/")
+    Call<ResponseHandler.SearchResponse> searchTeachersAndPosts(@Query("q") String query , @Query("search_type") String searchType);
 }

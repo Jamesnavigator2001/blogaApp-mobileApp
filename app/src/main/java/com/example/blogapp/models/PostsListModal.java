@@ -12,6 +12,11 @@ public class PostsListModal {
     private  String file_upload_url;
     private String image;
     private String status;
+    private String date2;
+
+    public String getDate2() {
+        return date2;
+    }
 
     public String getId() {
         return id;
@@ -27,6 +32,10 @@ public class PostsListModal {
 
     public String getTitle() {
         return title;
+    }
+
+    public void setDate2(String date2) {
+        this.date2 = date2;
     }
 
     public String getFileName() {

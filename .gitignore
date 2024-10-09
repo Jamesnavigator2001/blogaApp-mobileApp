@@ -13,3 +13,33 @@
 .externalNativeBuild
 .cxx
 local.properties
+
+# Android Studio files
+/.idea
+.gradle
+/local.properties
+/.gradle
+
+# Java and Kotlin compilation files
+*.class
+*.jar
+
+# Mobile app build files
+/build
+/app/build
+/app/debug
+/app/release
+
+# Log files
+*.log
+
+# OS and IDE files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Other files
+*.iml
+*.ipr
+*.iws

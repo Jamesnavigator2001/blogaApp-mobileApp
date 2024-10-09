@@ -23,8 +23,8 @@ public class RequestHandler {
 
     public static class CommentRequestBody {
         private String post;
-        private String registration_number;  // The user's registration number
-        private String body;  // The comment body text
+        private String registration_number;
+        private String body;
 
         // Constructor
         public CommentRequestBody(String post, String registration_number, String body) {

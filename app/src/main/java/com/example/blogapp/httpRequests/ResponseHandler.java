@@ -585,4 +585,120 @@ public class ResponseHandler {
         }
     }
 
+    public static class SearchResponse {
+        private  boolean error;
+        private String message;
+        private int count;
+        private List<SearchData> data;
+
+        public boolean isError() {
+            return error;
+        }
+
+        public String getMessage() {
+            return message;
+        }
+
+        public int getCount() {
+            return count;
+        }
+
+        public List<SearchData> getData() {
+            return data;
+        }
+
+        public static  class SearchData{
+            private  String  id;
+            private String title;
+            private String body;
+            private String post_type;
+            private String course;
+            private String file_upload;
+            private String file_name;
+            private String image;
+            private String status;
+            private int views_count;
+            private String author_username;
+            private String publish;
+
+            private String email;
+            private String staff_number;
+            private String registration_number;
+            private boolean is_teacher;
+            private boolean is_student;
+            private  List<LoginResponse.Course> courses;
+
+            public String getId() {
+                return id;
+            }
+
+            public String getTitle() {
+                return title;
+            }
+
+            public String getBody() {
+                return body;
+            }
+
+            public String getPost_type() {
+                return post_type;
+            }
+
+            public String getCourse() {
+                return course;
+            }
+
+            public String getFile_upload() {
+                return file_upload;
+            }
+
+            public String getFile_name() {
+                return file_name;
+            }
+
+            public String getImage() {
+                return image;
+            }
+
+            public String getStatus() {
+                return status;
+            }
+
+            public int getViews_count() {
+                return views_count;
+            }
+
+            public String getAuthor_username() {
+                return author_username;
+            }
+
+            public String getPublish() {
+                return publish;
+            }
+
+            public String getEmail() {
+                return email;
+            }
+
+            public String getStaff_number() {
+                return staff_number;
+            }
+
+            public String getRegistration_number() {
+                return registration_number;
+            }
+
+            public boolean isIs_teacher() {
+                return is_teacher;
+            }
+
+            public boolean isIs_student() {
+                return is_student;
+            }
+
+            public List<LoginResponse.Course> getCourses() {
+                return courses;
+            }
+        }
+    }
 }
