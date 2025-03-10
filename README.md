@@ -1,4 +1,4 @@
-```markdown
+
 # BlogApp Mobile Application
 
 **BlogApp** is a mobile application built in Java that allows users to browse, create, and interact with blog posts. It connects to a Django backend via a REST API, enabling seamless data synchronization and user authentication. Perfect for bloggers who want a clean, intuitive mobile experience!
