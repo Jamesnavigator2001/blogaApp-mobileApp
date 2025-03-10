@@ -20,7 +20,7 @@ Follow these steps to set up and run the BlogApp on your local machine.
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/your-username/blogapp-mobile.git
+git clone https://github.com/Jamesnavigator2001/blogaApp-mobileApp.git
 cd blogapp-mobile
 ```
 
