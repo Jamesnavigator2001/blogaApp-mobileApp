@@ -9,7 +9,7 @@ Follow these steps to set up and run the BlogApp on your local machine.
 
 ### Prerequisites
 
-- **Backend Setup**: Ensure the [Django Blog API](https://github.com/your-django-backend-repo) is set up and running.  
+- **Backend Setup**: Ensure the [Django Blog API](https://github.com/Jamesnavigator2001/blogaApp-mobileApp.git) is set up and running.  
 - **Android Studio**: Install Android Studio (latest version) for building the mobile app.  
 - **Java Development Kit (JDK)**: Version 11 or higher.  
 - **API Base URL**: Update the mobile app with your Django backend URL (see [Configuration](#configuration)).
